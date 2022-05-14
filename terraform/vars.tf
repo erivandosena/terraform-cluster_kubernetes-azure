@@ -1,24 +1,25 @@
 # variaveis de autenticação com Azure AKS
 
+# Subscription ID
 variable "subscription_id" {
     type = string
-    default = ""
+    default = "<SUBSCRIPTION-ID>"
 }
 
 # Application (client) ID
 variable "client_id" {
     type = string
-    default = ""
+    default = "CLIENT-ID>"
 }
 
 # Value
 variable "client_secret" {
     type = string
-    default = ""
+    default = "<VALUE-SECRET>"
 }
 
 # Directory (tenant) ID
 variable "tenant_id" {
     type = string
-    default = ""
+    default = "<TENANT-ID>"
 }
